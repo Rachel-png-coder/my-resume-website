@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel resume</title>
+    <link rel="icon" href=".images/C:\Users\LENOVO\Desktop\images\IMG_20241025_073831.jpg" type="images/jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header with Section Buttons and Dark Mode Toggle -->
+    <header>
+        <div class="container header-content">
+            <h1>Rachel Toronga</h1>
+            <p class="subtitle">Software Engineering Student | AI & ML</p>
+    
+            <!-- Section Buttons -->
+            <div class="nav-buttons">
+                <button class="section-button"><a href="#about"><i class="fas fa-user"></i> About Me</a></button>
+                <button class="section-button"><a href="#skills"><i class="fas fa-tools"></i> Skills</a></button>
+                <button class="section-button"><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></button>
+                <button class="section-button"><a href="#projects"><i class="fas fa-code"></i> Projects</a></button>
+                <button class="section-button"><a href="#contact"><i class="fas fa-contact"></i> Contact</a></button>
+            </div>
+    
+            <!-- Dark Mode Toggle -->
+            <div class="dark-mode-toggle">
+                <button id="darkModeToggle" title="Toggle Dark Mode">
+                    <i class="fas fa-adjust"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/logo.jpg" alt="" class="Profile pic">
+                <p>
+                    As a junior Software Engineer my mission is to develop a user-friendly web platform (education), 
+                    that equips job seekers with essential career knowledge.
+                    This platform will provide guides, interactive tools, and AI-driven assistance to help users build strong resumes,
+                    prepare for interviews, and navigate their job search effectively. By offering personalized career pathways and
+                    mentorship opportunities, the platform will bridge the knowledge gap, empowering job seekers with the skills and 
+                    confidence needed to secure employment. Ultimately, this project aims to make job-seeking more accessible, structured,
+                    and effective for individuals who have diplomas and degrees in rural Zimbabwe who are struggling to get employment.
+                    My mission is aimed at reducing unemployment and ensuring job security.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-dark">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
+                <div class="skill"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+                <div class="skill"><i class="fab fa-git-alt"></i><p>Git</p></div>
+                <div class="skill"><i class="fab fa-linux"></i><p>Linux</p></div>
+                <div class="skill"><i class="fas fa-database"></i><p>SQL</p></div>
+                <div class="skill"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>African Leadership University</h3>
+                    <p>BSc-Software Engineering (2024 - May intake)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Masekayi High School P.Bag 513 Nyika Zimbabwe</h3>
+                    <p>High School Certification in Sciences(2023)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <i class="fas fa-project-diagram project-icon"></i>
+                    <h3>Alu-web-Development</h3>
+                    <p>An HTML project basically important for developing websites.</p>
+                    <a href="https://github.com/Rachel-png-coder/alu-web-development" target="_blank" class="button">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project">
+                    <i class="fas fa-cloud project-icon"></i>
+                    <h3>Data Aggregation API</h3>
+                    <p>An API that aggregates and displays data based on user input.</p>
+                    <a href="https://github.com/Rachel-png-coder/alu_regex-data-extraction-Rachel-png-coder" target="_blank" class="button">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project">
+                    <i class="fas fa-book project-icon"></i>
+                    <h3>Submission-reminder-app</h3>
+                    <p>A shell scripting project aimed at reminding students on project submissions and upcoming projects.</p>
+                    <a href="https://github.com/Rachel-png-coder/submission_reminder_app_Rachel_png_coder" target="_blank" class="button">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project">
+                    <i class="fas fa-users project-icon"></i>
+                    <h3>Student-reminder-app</h3>
+                    <p>A python-based application designed to help users organize their tasks efficiently.</p>
+                    <a href="https://github.com/Rachel-png-coder/focusly-student-reminder" target="_blank" class="button">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-dark">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-details">
+                <p><i class="fas fa-phone"></i> +250794421682 | +263784670888</p>
+                <p><i class="fas fa-map-marker-alt"></i> African Leadership University Kigali, Rwanda</p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Rachel-png-coder" target="_blank">github.com/Rachel-png-coder</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>| All Rights Reserved |</p>
+        </div>
+    </footer>
+</body>
+</html> 
